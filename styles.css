@@ -305,6 +305,13 @@ section .row span {
   max-width: 1140px;
 }
 
+@media (max-width: 480px) {
+  .container {
+    max-width: 540px;
+    width: 100%;
+  }
+}
+
 /* About Section */
 #about {
   background-color: white;

@@ -77,14 +77,17 @@ a {
 
 /* Media Query for screens smaller than a certain width (e.g., mobile phones) */
 @media (max-width: 480px) {
-  /* #navbar {
-    width: 90%; Adjust the width for smaller screens
-  } */
+  #navbar {
+    text-align: center; /* Center-align the links */
+    position: relative; /* Add relative positioning to create a stacking context */
+  }
 
   #navbar a {
-    width: auto; /* Allow items to expand to fit content */
-    padding: 10px 10px; /* Adjust padding horizontally */
-    margin: 0 5px; /* Adjust horizontal margin between items */
+    display: block; /* Display the links as blocks */
+    text-align: center; /* Center-align the text within each block */
+    width: 100%; /* Make the blocks fill the entire width */
+    padding: 10px 0; /* Adjust padding as needed */
+    border-top: 1px solid #ccc; /* Add a border between links */
   }
 }
 

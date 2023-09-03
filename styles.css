@@ -78,7 +78,7 @@ a {
 /* Media Query for screens smaller than a certain width (e.g., mobile phones) */
 @media (max-width: 480px) {
   #navbar {
-    right: 10; /* Adjust left position for full width on smaller screens */
+    width: 90%; /* Adjust the width for smaller screens *
   }
 
   #navbar a {

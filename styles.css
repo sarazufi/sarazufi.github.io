@@ -77,9 +77,9 @@ a {
 
 /* Media Query for screens smaller than a certain width (e.g., mobile phones) */
 @media (max-width: 480px) {
-  #navbar {
-    width: 90%; /* Adjust the width for smaller screens */
-  }
+  /* #navbar {
+    width: 90%; Adjust the width for smaller screens
+  } */
 
   #navbar a {
     width: auto; /* Allow items to expand to fit content */

@@ -84,6 +84,7 @@ a {
   #navbar a {
     width: auto; /* Allow items to expand to fit content */
     padding: 10px 10px;
+    font-size: small;
   }
 }
 
